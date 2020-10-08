@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/rubik-v11-latin-regular.woff2") format("woff2"),
+       url("../fonts/rubik-v11-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/rubik-v11-latin-500.woff2") format("woff2"),
+       url("../fonts/rubik-v11-latin-500.woff") format("woff");
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+  color: #222;
+}
+
+.container{
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.site-navigation{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 48px 0;
+}
+
+.site-header-link{
+  text-decoration: none;
+  display: block;
+  margin-right: auto;
+}
+
+.menu-list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.menu-link{
+  display: block;
+  text-decoration: none;
+  padding: 0 24px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #242A45;
+}
+
+.nav-link{
+  display: block;
+  padding: 12px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: -3px;
+  margin-left: 28px;
+  background-color: #FA5959;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+}
